@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Admin</class>
+ <widget class="QMainWindow" name="Admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>724</width>
+    <height>548</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Admin</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>../../Users/Pathum/Desktop/interfaces/10-512.png</normaloff>../../Users/Pathum/Desktop/interfaces/10-512.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(222, 222, 222);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_adduser">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>60</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(45, 45, 45);</string>
+    </property>
+    <property name="text">
+     <string>Add new user</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../Users/Pathum/Desktop/interfaces/Custom-Icon-Design-Flatastic-4-Male-user-add.ico</normaloff>../../Users/Pathum/Desktop/interfaces/Custom-Icon-Design-Flatastic-4-Male-user-add.ico</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_view">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>170</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(45, 45, 45);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string> Users</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../Users/Pathum/Desktop/interfaces/Icojam-Blue-Bits-User-search.ico</normaloff>../../Users/Pathum/Desktop/interfaces/Icojam-Blue-Bits-User-search.ico</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_signout">
+    <property name="geometry">
+     <rect>
+      <x>530</x>
+      <y>480</y>
+      <width>111</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(69, 208, 102);
+</string>
+    </property>
+    <property name="text">
+     <string>Sign out</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../Users/Pathum/Desktop/interfaces/256-256-ada8cdcc2d399ed2ee327ebe5d479797-power.png</normaloff>../../Users/Pathum/Desktop/interfaces/256-256-ada8cdcc2d399ed2ee327ebe5d479797-power.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_live">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>280</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(45, 45, 45);
+color: rgb(255, 255, 255);</string>
+    </property>
+    <property name="text">
+     <string>Live Feed</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../Users/Pathum/Desktop/interfaces/video-camera-icon-300x300_-_Copy.71170616_std.png</normaloff>../../Users/Pathum/Desktop/interfaces/video-camera-icon-300x300_-_Copy.71170616_std.png</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_record">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>390</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(45, 45, 45);</string>
+    </property>
+    <property name="text">
+     <string>previous Record</string>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../../Users/Pathum/Desktop/interfaces/vinyl-record-disc-icon-psd-image-2350vinyl-record-512.png</normaloff>../../Users/Pathum/Desktop/interfaces/vinyl-record-disc-icon-psd-image-2350vinyl-record-512.png</iconset>
+    </property>
+   </widget>
+   <widget class="Line" name="line">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>130</y>
+      <width>721</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>240</y>
+      <width>721</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>350</y>
+      <width>721</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="Line" name="line_4">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>460</y>
+      <width>721</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
